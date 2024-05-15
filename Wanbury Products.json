@@ -1,0 +1,649 @@
+[
+ {
+  "ProductID": "Sr. No.",
+  "ProductName": "Produc Name",
+  "Size": "SIZE",
+  "Composition": "Composition",
+  "Category": "Category ",
+  "Special Rate + GST Extra on per unit": "Special Rate + GST Extra on per unit",
+  "MRP": "MRP ",
+  "GST%": "GST%",
+  "image": "image"
+ },
+ {
+  "ProductID": 59,
+  "ProductName": "AC DUO 625 Tablets T10",
+  "Size": 10,
+  "Composition": "Each film coated tablet  contains :Amoxycillin Trihydrate IP equivalent to Amoxycillin 500 mg,Potassium Clavulanate Diluted IP equivalent to Clavulanic Acid 125 mg,Excipients Q.S. , Colour Titanium Dioxide IP.",
+  "Category": "anitbiotic",
+  "MRP": 182.75,
+  "GST%": 12,
+  "image": "https:\/\/firebasestorage.googleapis.com\/v0\/b\/wanbury-303d2.appspot.com\/o\/medicines%2FAC-DUO%20625.png?alt=media&token=a4124f6e-ed4b-4bb8-8485-ad1a59d72f23"
+ },
+ {
+  "ProductID": 58,
+  "ProductName": "AC DUO DS Suspension 30 ml",
+  "Size": "30ml",
+  "Composition": "Each 5 ml of reconstituted suspension contains : Amoxycillin Trihydrate IP equivalent to Amoxycillin 200 mg, Potassium Clavulanate Diluted IP equivalent to Clavulanic Acid 28.5 mg, Excipients Q.S.",
+  "Category": "Antibiotics",
+  "MRP": 67.2,
+  "GST%": 12,
+  "image": "https:\/\/firebasestorage.googleapis.com\/v0\/b\/wanbury-303d2.appspot.com\/o\/medicines%2FAC-DUO%20susp.png?alt=media&token=90c341e1-cbfd-4f84-a880-26abaecdcd2e"
+ },
+ {
+  "ProductID": 1,
+  "ProductName": "ADTROL K2 TABLET T 10",
+  "Size": 10,
+  "Composition": "Each film coated tablet contains:\nCalcium Aspartate (Anhydrous)               1120mg (eauivalnt to elemental Calcium 146 mg) \nCalcitriol                                                   0.25mcg\nMethylcobalamin                                     1500mcg\nMagnesium (As Magnesium Oxide) I.P.       50mg\nZinc (As Zinc Sulphate Monohydrate) I.P.   7.5mg\nVitamin K2-7                                               45mcg\nL-Methylfolate Calcium \nequivalent to L-Methylfolate                          1mg\nPyridoxal -5- Phosphate   I.P.                     0.5mg\nBoron ( As Sodium Tetraborate)                 1.5mg                                                                                                                                                                                                                                                                                                                                    L-leucine                                                    5 mg                                                                                                                                                                                                                                                            L-Arginine                                                10 mg                                                                                                  Excipients",
+  "Category": "Calcium with Vit & Minerals",
+  "MRP": 246,
+  "GST%": 18,
+  "image": "https:\/\/firebasestorage.googleapis.com\/v0\/b\/wanbury-303d2.appspot.com\/o\/medicines%2FAdtrol%20K2.png?alt=media&token=d05970e7-612c-47d6-ad32-3aab52690247"
+ },
+ {
+  "ProductID": 2,
+  "ProductName": "ADTROL PLUS TABLET T15",
+  "Size": 15,
+  "Composition": "Each film coated tablet contains: \nCalcium Carbonate 1250 mg \nequivalent to Elemental Calcium             …. 500 mg\nCalcitriol                                          ………0.25 mcg\nL-Methylfolate (As L-Methylfolate Calcium) ...1 mg                                                                                                                                                                                                                                                       L-Arginine  --------10mg                                                                                                                                                                                                                                                                                                 L-Leucine -------------5mg\nMethylcobalamin                               ………1500 mcg\nPyridoxal-5-Phosphate                   ………… 0.5 mg\nZinc (As Zinc Sulphate Monohydrate)    ……7.5 mg \nBoron (As Sodium Tetraborate)     ………….1.5 mg\nMagnesium (As Magnesium Oxide)      ……. 50 mg\nExcipients                                            …………   q.s. \n",
+  "Category": "Calcium with Vit & Minerals",
+  "MRP": 299,
+  "GST%": 18,
+  "image": "https:\/\/firebasestorage.googleapis.com\/v0\/b\/wanbury-303d2.appspot.com\/o\/medicines%2FAdtrol%20plus.png?alt=media&token=76bd3841-f3e8-4c28-8193-2495391ed6c7"
+ },
+ {
+  "ProductID": 3,
+  "ProductName": "ADTROL XT Tablets T15",
+  "Size": 15,
+  "Composition": "Elemental Calcium 500 mg + L-Methylfolate 1 mg + Mecobalamin (Methylcobalamin) 1500 mcg + Pyridoxal Phosphate 20 mg + Vitamin D3 2000 IU",
+  "Category": "Calcium with Vit D3",
+  "MRP": 302.7,
+  "GST%": 18,
+  "image": "https:\/\/firebasestorage.googleapis.com\/v0\/b\/wanbury-303d2.appspot.com\/o\/medicines%2FAdtrol%20XT.png?alt=media&token=b733f012-ebda-42a9-bcd1-a87d17301118"
+ },
+ {
+  "ProductID": 4,
+  "ProductName": "BREAKFIX TABLETS T15",
+  "Size": 15,
+  "Composition": "Each film coated tablet contains:\nCissus quadrangularis  500 mg\nMoringa oleifera 100 mg                                                                                                                       Pueraria lobata root containing Pueraria isoflavones  28 mg\nAscorbic acid (Stabilized) 8 mg\nCopper  0.4 mg\nChromium  10 mcg\nMolybdenum  9 mcg\nSelenium 5.2 mcg\nBoron   150 mcg",
+  "MRP": 310.6,
+  "GST%": 18,
+  "image": "https:\/\/firebasestorage.googleapis.com\/v0\/b\/wanbury-303d2.appspot.com\/o\/medicines%2FBreak%20Fix%20tab.png?alt=media&token=8c2e6ede-5820-4bd8-b1a9-d936ca103d1f"
+ },
+ {
+  "ProductID": 5,
+  "ProductName": "CEMAX CEF 1.5GM - VIAL",
+  "Size": 1.5,
+  "Composition": "Each vial contains :                                                                                                                                 Sterile Cefuroxime Sodium IP equivalent to Cefuroxime 1.5 gm",
+  "Category": "Antibiotics",
+  "MRP": 333.1,
+  "GST%": 12,
+  "image": "https:\/\/firebasestorage.googleapis.com\/v0\/b\/wanbury-303d2.appspot.com\/o\/medicines%2FCemax%20Cef.png?alt=media&token=72a7489f-979e-4ffd-b49c-333acc851faf"
+ },
+ {
+  "ProductID": 6,
+  "ProductName": "Cemax-T 500 Tablets T10",
+  "Size": 10,
+  "Composition": "Each film coated tablet contains:                                                                                                    Cefuroxime Axetil USP equivalent to Cefuroxime…. 500mg Excipients    Colour: Titanium Dioxide IP",
+  "Category": "Antibiotics",
+  "MRP": 779,
+  "GST%": 12,
+  "image": "https:\/\/firebasestorage.googleapis.com\/v0\/b\/wanbury-303d2.appspot.com\/o\/medicines%2FCemax%20T%20500%20tab.png?alt=media&token=ccd94869-cde7-4c1e-a808-41243413d106"
+ },
+ {
+  "ProductID": 61,
+  "ProductName": "CHEER - 120 Suspension 60 ml",
+  "Size": "60ml",
+  "Composition": "Each 5ml contains : Paracetamol IP   -  120 mg, in flavoured syp base  qs Colour Sunset Yellow FCF",
+  "Category": "Fever ",
+  "MRP": 37,
+  "GST%": 12
+ },
+ {
+  "ProductID": 62,
+  "ProductName": "CHEER - 250 Suspension 60 ml",
+  "Size": "60ml",
+  "Composition": "Each 5ml contains : Paracetamol IP   -  250 mg, in flavoured syp base  qs Colour Sunset Yellow FCF",
+  "Category": "Fever ",
+  "MRP": 45,
+  "GST%": 12
+ },
+ {
+  "ProductID": 65,
+  "ProductName": "CHEER - 375 Suspension 60 ml",
+  "Size": "60ml",
+  "Composition": "Each 5ml contains : Paracetamol IP   -  375 mg, in flavoured syp base  qs Colour Sunset Yellow FCF",
+  "Category": "Fever ",
+  "MRP": 46,
+  "GST%": 12
+ },
+ {
+  "ProductID": 63,
+  "ProductName": "CHEER - 500 Suspension 60 ml",
+  "Size": "60ml",
+  "Composition": "Each 5ml contains : Paracetamol IP   -  500 mg, in flavoured syp base  qs Colour Sunset Yellow FCF",
+  "Category": "Fever ",
+  "MRP": 47,
+  "GST%": 12
+ },
+ {
+  "ProductID": 7,
+  "ProductName": "CHEER SYRUP - 200ML",
+  "Size": "200 ML",
+  "Composition": "Each 15 ml contains -                                                                                                                                   L-Isoleucine                    USP  1.96  mg                                                                                                       L-Leucine                       USP   6.10 mg                                                                                                        L-Lysine Hydrochloride  USP 8.33 mg                                                                                                          L-Methionine                  USP  3.07 mg                                                                                                         L-Phenylalanine             USP 1.66 mg                                                                                                          L-Threonine                   USP  1.40 mg                                                                                                         L-Tryptophan                 USP 1.66 mg                                                                                                          L-Valine                          USP 2.23 mg                                                                                               Thiamine Hydrochloride IP 0.21 mg                                                                                              Riboflavin(as Riboflavin Sodium Phosphate) IP 0.33mg                                                              Nicotinamide     4 mg                                                                                                                           Calcium Pantothanate IP 1.66 mg                                                                                                    Pyridoxine Hydrochloride IP 0.4 mg                                                                                                    Ascorbic acid IP 8 mg                                                                                                                               Folic Acid IP 40 mcg Colour :                                                                                                               Caramel IP",
+  "Category": "Amino Acid",
+  "MRP": 182.4,
+  "GST%": 18
+ },
+ {
+  "ProductID": 8,
+  "ProductName": "CHEER TABLETS T15",
+  "Size": 15,
+  "Composition": "Each film coated tablet contains:\nIngredient Quantity\nL-Isoleucine 14.6 mg\nL-Leucine 23.8 mg\nL-Lysine HCl 25 mg\nDL-Methionine 18.4 mg\nL-Phenylalanine 16 mg\nL-Threonine 11.3 mg\nL-Tryptophan 5 mg\nL-Valine 14 mg\nAscorbic Acid 40 mg\nThiamine Mononitrate 1 mg\nRiboflavin 1 mg\nNicotinamide  15 mg\nCalcium Pantothenate 5 mg\nPyridoxine HCl 1.5 mg\nVitamin B12 2 mcg\nBiotin 30 mcg\nFolic acid 0.15 mg\nCopper 0.5 mg\nMagnesium  4 mg\nManganese 1 mg\nIodine 0.1 mg\nSelenium 20 mcg\nZinc 10 mg\nChromium 66 mcg",
+  "Category": "Amino Acid",
+  "MRP": 163,
+  "GST%": 18
+ },
+ {
+  "ProductID": 9,
+  "ProductName": "CHYMONAC FORTE TABLET T20",
+  "Size": 20,
+  "Composition": "Each enteric coated tablet contains:                                                                                                 1,00,000 Armour Units enzymatic activity (supplied by a purified concentrate which has specific Trypsin & Chymotrypsin",
+  "Category": "Pain Killer",
+  "MRP": 311,
+  "GST%": 12,
+  "image": "https:\/\/firebasestorage.googleapis.com\/v0\/b\/wanbury-303d2.appspot.com\/o\/medicines%2FChymonac%20Forte.png?alt=media&token=bb411377-f428-42a5-9cc4-65d1ee624e41"
+ },
+ {
+  "ProductID": 10,
+  "ProductName": "CHYMONAC TABLETS - T10 (SALES PACK)",
+  "Size": 10,
+  "Composition": "Each film coated tablet contains :                                                                                                Aceclofenac IP ….. 100 mg,                                                                                                        Paracetamol IP ….. 325 mg,                                                                                                               Trypsin \/ Chymotrypsin 150000 AU of  Enzyme activity (as enteric coated granules) Colour : Sunset yellow FCF",
+  "Category": "Pain Killer",
+  "MRP": 160,
+  "GST%": 12,
+  "image": "https:\/\/firebasestorage.googleapis.com\/v0\/b\/wanbury-303d2.appspot.com\/o\/medicines%2FChymonac%20Tablets%20T10.png?alt=media&token=e94c84c1-e92a-4633-a5c7-e0b70719fb64"
+ },
+ {
+  "ProductID": 11,
+  "ProductName": "CHYMONAC-MR TABLETS",
+  "Size": 10,
+  "Composition": "Each film coated tablet contains :                                                                                                Aceclofenac IP …. 100 mg,                                                                                                         Paracetamol IP … 325 mg,                                                                                                     Thiocolchicoside IP 4mg,                                                                                                                   Colour : Titanium Dioxide IP",
+  "Category": "Muscle Relaxation ",
+  "MRP": 180,
+  "GST%": 12,
+  "image": "https:\/\/firebasestorage.googleapis.com\/v0\/b\/wanbury-303d2.appspot.com\/o\/medicines%2FChymonac-MR.png?alt=media&token=e6b728b0-574e-4183-87de-9c659bef6c40"
+ },
+ {
+  "ProductID": 12,
+  "ProductName": "CORIMINIC  DROPS",
+  "Size": "15ML",
+  "Composition": "Each ml  cointains :                                                                                                                   Phenylephrine Hydrochloride IP  -  5 mg                                                                              Chlorpheniramine Maleate IP     -   2 mg",
+  "Category": "Cough & Cold",
+  "MRP": 66.2,
+  "GST%": 12,
+  "image": "https:\/\/firebasestorage.googleapis.com\/v0\/b\/wanbury-303d2.appspot.com\/o\/medicines%2FCorminic%20Oral%20Drops.png?alt=media&token=731972e7-0ab7-42b2-9fcb-eb88cb2a9735"
+ },
+ {
+  "ProductID": 13,
+  "ProductName": "CORIMINIC DM SYRUP 100ML",
+  "Size": "100ML",
+  "Composition": "Each 5ml cantains:                                                                                                                       Dextromethorphan Hydrobromide IP …..   10 mg                                                              Chlorpheniramine Maleate IP       ……..       4 mg                                                                         Flavoured Syrup base                                   q.s.                                                                               Colour: Sunset Yellow FCF",
+  "Category": "Cough & Cold",
+  "MRP": 96.7,
+  "GST%": 12,
+  "image": "https:\/\/firebasestorage.googleapis.com\/v0\/b\/wanbury-303d2.appspot.com\/o\/medicines%2FCrominic%20DM.png?alt=media&token=20b348a1-4a33-4929-8be6-c82ad04a9c94"
+ },
+ {
+  "ProductID": 50,
+  "ProductName": "CORIMINIC JR. DROPS",
+  "Size": "15ML",
+  "Composition": "Each ml  cointains :  Phenylephrine Hydrochloride IP  -  2.5 mg  Chlorpheniramine Maleate IP     -   1 mg In flavoured base syp q.s. ",
+  "Category": "Cough & Cold",
+  "MRP": 2500,
+  "GST%": 12
+ },
+ {
+  "ProductID": 49,
+  "ProductName": "CORIMINIC LS Jr. SYRUP 60 ML",
+  "Size": "60ml",
+  "Composition": "Each 5ml contains : Levosalbutamol Sulphate IP equivalent to Levosalbutamol 0.5 mg, Ambroxol Hydrochloride IP 15 mg, Guaiphenesin IP 50 mg ,  In a flavoured syrup base  q.s., Colour Ponceua 4R . ",
+  "Category": "Productive Cough",
+  "MRP": 1400,
+  "GST%": 12,
+  "image": "https:\/\/firebasestorage.googleapis.com\/v0\/b\/wanbury-303d2.appspot.com\/o\/medicines%2FCorimic%20LS%20Jr.png?alt=media&token=2542a97b-0011-47fc-9615-c09d436cc0ee"
+ },
+ {
+  "ProductID": 14,
+  "ProductName": "CORIMINIC LS SYRUP 100 ML",
+  "Size": "100ML",
+  "Composition": "Levosalbutamol Sulphate IP equivalent to                                                                          Levosalbutamol……1 mg, Ambroxol Hydrochloride……...30 mg Guaiphenesin…………………………...……………………50 mg Flavoured syrup base…………………………………………q.s",
+  "Category": "Productive Cough",
+  "MRP": 96.7,
+  "GST%": 12,
+  "image": "https:\/\/firebasestorage.googleapis.com\/v0\/b\/wanbury-303d2.appspot.com\/o\/medicines%2FCorimic%20LS%20Syrup.png?alt=media&token=c273a3de-f95a-4eab-b65e-6b6c04474295"
+ },
+ {
+  "ProductID": 64,
+  "ProductName": "CORIMINIC P DS Suspension 60 ml",
+  "Size": "60ml",
+  "Composition": "Each 5ml contains : Phenylephrine Hydrochloride IP  -  5 mg,   Chlorpheniramine Maleate IP  -  2 mg ,    Paracetamol IP   -  250 mg,   in flavoured syp base  Colour Sunset Yellow FCFColour",
+  "Category": "Fever ",
+  "MRP": 95,
+  "GST%": 12
+ },
+ {
+  "ProductID": 15,
+  "ProductName": "CORIMINIC P SYRUP 60ML",
+  "Size": "60ML",
+  "Composition": "Each teaspooful (5ml) contains :                                                                                             Phenylephrine Hydrochloride IP  -  5 mg                                                                             Chlorpheniramine Maleate IP     -   1 mg                                                                                   Paracetamol IP                          -  125 mg",
+  "Category": "Fever, cough & Cold",
+  "MRP": 73.4,
+  "GST%": 12,
+  "image": "https:\/\/firebasestorage.googleapis.com\/v0\/b\/wanbury-303d2.appspot.com\/o\/medicines%2FCoriminic%20P%20Syrup.png?alt=media&token=39248b02-17db-4fc0-a427-595e27e83e0e"
+ },
+ {
+  "ProductID": 16,
+  "ProductName": "CORIMINIC P TABLETS  new T-10",
+  "Size": 10,
+  "Composition": "Each uncoated tablet contains :                                                                                               Phenylephrine Hydrochloride IP  -  10 mg                                                                                Chlorpheniramine Maleate IP     -   2 mg                                                                                     Paracetamol IP                         -   500 mg",
+  "Category": "Fever, cough & Cold",
+  "MRP": 50.7,
+  "GST%": 12,
+  "image": "https:\/\/firebasestorage.googleapis.com\/v0\/b\/wanbury-303d2.appspot.com\/o\/medicines%2FCorminic%20P%20tab.png?alt=media&token=0cf2b1f2-ff6c-42e4-bd7a-b66b0536c9ac"
+ },
+ {
+  "ProductID": 17,
+  "ProductName": "CORIMINIC SYRUP 60ML",
+  "Size": "60ML",
+  "Composition": "Each teaspooful (5ml) contains :                                                                                            Phenylephrine Hydrochloride IP  -  5 mg                                                                                      Chlorpheniramine Maleate IP     -   2 mg",
+  "Category": "Cough & Cold",
+  "MRP": 80.7,
+  "GST%": 12,
+  "image": "https:\/\/firebasestorage.googleapis.com\/v0\/b\/wanbury-303d2.appspot.com\/o\/medicines%2FCoriminic%20Syrup.png?alt=media&token=f85ceeac-4186-4a16-b89a-22cfc5e5fbd8"
+ },
+ {
+  "ProductID": 18,
+  "ProductName": "CORIMINIC TABLETS T-10",
+  "Size": 10,
+  "Composition": "Each uncoated tablet contains :                                                                                             Phenylephrine Hydrochloride IP  -  10 mg                                                                             Chlorpheniramine Maleate IP     -   4 mg",
+  "Category": "Cough & Cold",
+  "MRP": 53.7,
+  "GST%": 12,
+  "image": "https:\/\/firebasestorage.googleapis.com\/v0\/b\/wanbury-303d2.appspot.com\/o\/medicines%2FCorminic%20tablets.png?alt=media&token=1b393fa4-b47b-4a83-a067-6380a1d2fe34"
+ },
+ {
+  "ProductID": 19,
+  "ProductName": "CORIMINIC XT EXP - 100 ML",
+  "Size": "100ML",
+  "Composition": "Each 5 ml cointains :                                                                                                                        Ambroxol Hydrochloride  B. P.          20 mg                                                                                 Terbutaline Sulphate USP                  1.25 mg                                                                         Guaiphenesin I.P.                                 50.0 mg                                                                             Flavoured Syrupy Base                         q.s.",
+  "Category": "Dry cough",
+  "MRP": 76,
+  "GST%": 12,
+  "image": "https:\/\/firebasestorage.googleapis.com\/v0\/b\/wanbury-303d2.appspot.com\/o\/medicines%2FCoriminic%20XT.png?alt=media&token=30ab6bfb-003d-4161-a5d3-5d817c4bdc70"
+ },
+ {
+  "ProductID": 20,
+  "ProductName": "CUSENA TABLET T10",
+  "Size": 10,
+  "Composition": "Each film coated tablet contains: \nDocusate Sodium (As 85 % powder) ..............100 mg\nPurified Senna dry extract IP 86 mg equivalent to \nSenna Glucosides as Calcium Salts............17.2 mg \nExcipients ...........q.s.\nColours: Red Iron Oxide and Titanium Dioxide IP",
+  "Category": "constipitation ",
+  "MRP": 157,
+  "GST%": 12,
+  "image": "https:\/\/firebasestorage.googleapis.com\/v0\/b\/wanbury-303d2.appspot.com\/o\/medicines%2FCusena.png?alt=media&token=2813657b-b42d-40be-9666-9db22d70cf9c"
+ },
+ {
+  "ProductID": 21,
+  "ProductName": "NIFTY - SR TABLETS",
+  "Size": 14,
+  "Composition": "Each uncoated sustained release tablet contains :                                                                        Nitrofurantoin IP ……………………………. 100 mg                                                                        Excipients ……………………………………. q.s.",
+  "Category": "UTI Antibiotic",
+  "MRP": 80.75,
+  "GST%": 12,
+  "image": "https:\/\/firebasestorage.googleapis.com\/v0\/b\/wanbury-303d2.appspot.com\/o\/medicines%2FNifty%20-SR%20tab.png?alt=media&token=72110e68-76f3-4b5d-9a36-49b107339899"
+ },
+ {
+  "ProductID": 22,
+  "ProductName": "NITROFUR SR TABLETS ",
+  "Size": 14,
+  "Composition": "Each uncoated sustained release tablet contains :                                                                  Nitrofurantoin IP ……………………………. 100 mg                                                                         Excipients ……………………………………. q.s.",
+  "Category": "UTI Antibiotic",
+  "MRP": 113.35,
+  "GST%": 12,
+  "image": "https:\/\/firebasestorage.googleapis.com\/v0\/b\/wanbury-303d2.appspot.com\/o\/medicines%2FNitrofur%20SR.png?alt=media&token=688b6cee-9e97-41fe-b1b7-df2347e54da3"
+ },
+ {
+  "ProductID": 23,
+  "ProductName": "NOCK 2 TABLET - T10",
+  "Size": 10,
+  "Composition": "Each uncoated tablet contains,                                                                                                     Nimesulide  B.P.                         100 mg                                                                                        Paracetamol I.P.                          500 mg",
+  "Category": "Pain Killer",
+  "MRP": 59,
+  "GST%": 12,
+  "image": "https:\/\/firebasestorage.googleapis.com\/v0\/b\/wanbury-303d2.appspot.com\/o\/medicines%2FNock-2.png?alt=media&token=05aea99a-7b4c-4191-8c90-2b201859ada5"
+ },
+ {
+  "ProductID": 54,
+  "ProductName": "NOCK CR Tablets T10",
+  "Size": 10,
+  "Composition": "Each uncoated controlled release tablets contains : Aceclofenac IP 200 mg, Excipients q.s.",
+  "Category": "Pain Killer",
+  "MRP": 80,
+  "GST%": 12,
+  "image": "https:\/\/firebasestorage.googleapis.com\/v0\/b\/wanbury-303d2.appspot.com\/o\/medicines%2FNock-CR.png?alt=media&token=84036af8-23f8-476f-acab-ac38ad550934"
+ },
+ {
+  "ProductID": 53,
+  "ProductName": "NOCK P Tablets T10",
+  "Size": 10,
+  "Composition": "Each film coated release tablet contains : Aceclofenac IP 100 mg, Paracetamol IP 325 mg, Excipients q.s., Colour Titanium Dioxide IP ",
+  "Category": "Pain Killer",
+  "MRP": 60,
+  "GST%": 12,
+  "image": "https:\/\/firebasestorage.googleapis.com\/v0\/b\/wanbury-303d2.appspot.com\/o\/medicines%2FNock%20P.png?alt=media&token=cc2190ea-2387-4ebf-b2ea-71b5bb23cd1f"
+ },
+ {
+  "ProductID": 55,
+  "ProductName": "NOCK SP Tablets T10",
+  "Size": 10,
+  "Composition": "Each film coated tablet contains: Aceclofenac IP     …..100 mg Paracetamol IP   …..   325 mg Serratiopeptidase …..   15mg (as Gastro Resistant granules)",
+  "Category": "Pain killer with Swelling",
+  "MRP": 105,
+  "GST%": 12,
+  "image": "https:\/\/firebasestorage.googleapis.com\/v0\/b\/wanbury-303d2.appspot.com\/o\/medicines%2FNock%20SP.png?alt=media&token=2a792f1b-f507-4fc9-acf5-2744683ed58a"
+ },
+ {
+  "ProductID": 56,
+  "ProductName": "NOCK TH 4 Tablets T10",
+  "Size": 10,
+  "Composition": "Each film coated tablets contains : Aceclofenac IP 100 mg, Thiocolchicoside IP 4 mg, Excipients q.s., Colour Sunset Yellow FCF and Titanium Dioxide IP.",
+  "Category": "Muscle Relaxation ",
+  "MRP": 190,
+  "GST%": 12,
+  "image": "https:\/\/firebasestorage.googleapis.com\/v0\/b\/wanbury-303d2.appspot.com\/o\/medicines%2FNock%20TH4.png?alt=media&token=9144ac2c-5562-4425-87dc-b219f656ad5f"
+ },
+ {
+  "ProductID": 24,
+  "ProductName": "NOCK-3 TABLETS - T10",
+  "Size": 10,
+  "Composition": "Each film coated tablet contains:                                                                                                Aceclofenac IP     …..100 mg                                                                                                     Paracetamol IP   …..   325 mg                                                                                                  Serratiopeptidase …..   15mg (as enteric coated granules)",
+  "Category": "Pain Killer",
+  "MRP": 95.3,
+  "GST%": 12,
+  "image": "https:\/\/firebasestorage.googleapis.com\/v0\/b\/wanbury-303d2.appspot.com\/o\/medicines%2FNock%203_V2.png?alt=media&token=958e69e3-b83a-450e-bf87-7a68542472cb"
+ },
+ {
+  "ProductID": 26,
+  "ProductName": "NURTURE POWDER -                              VANILLA  FLAVOUR 200 gm",
+  "Size": "200G",
+  "Composition": "EACH 30 GM POWDER CONTAINS   Energy  111.46 Kcal, Whey Protein 80% and Skimmed Milk Protein 35% - 12.30 gm,  Carbohydrates  21.60 gm, Total Sugar 15 gm, Added Sugar 14.4 gm, Dietary fiber 0.75 gm , Fat 0.60 gm, Saturated Fat 0.18 gm, Trans Fat 0 gm, Sodium 54 mg, Iron (Ferrous Fumrate) 6.0 mg, Folic acid (Dietry  Folate) 78.9 mcg,   Vitamin C (L-Ascorbic Acid) 22.50 mg, Vitamin B2 (Riboflavin) 0.54 mg,  Vitamin B6 (Pyridoxine Hydrochloride) 1.08 mg,  Vitamin B12 (Cynocobalamine) 0.60mcg,  Iodine (potassium Iodied) 54.9mcg, Calcium  (Di Calcium Phosphate) 400.20mg,   Phosphorus  165mg,   Vitamin D3 (Lichen Source) 90 IU,  Vitamin A (Retinyl Palmitate)  750 IU,   Vitamin E ( D-alpha tocopherol) 5.10 mg, Vitamin B1 (Thiamin HCL) 0.45 mg, Vitamin B3 (Niacin) 9.60mg,  Vitamin K (Menaquinone) 21mcg,  Pantothenic acid (Calcium D-pantothenate) 1.5mg,  DHA 10% veg source  24mg,  zinc (zinc Sulphate) 3.46mg,  Selenium (Sodium Selenite) 14.1mcg, Copper (Copper Sulphate)  0.36 mg, Potassium (Potassium Iodied)  220.50 mg,  Chloride  193.96 mg, Manganese (Manganese Sulphate) 1.2 mg, Chromium (chromium Chloride) 9 mcg,   Molybdenum (Sodium Molabdate)  15 mcg,   Choline (Choline Chloride)  45 mg, Flavour Vanilla 0.33 gm",
+  "Category": "Protein Suppliment",
+  "MRP": 343.8,
+  "GST%": 18,
+  "image": "https:\/\/firebasestorage.googleapis.com\/v0\/b\/wanbury-303d2.appspot.com\/o\/medicines%2FNurture%20%20(Vanilla%20%20Flav).png?alt=media&token=2ece3862-609f-403a-be64-19bc9c554e8a"
+ },
+ {
+  "ProductID": 25,
+  "ProductName": "NURTURE POWDER - CHOCOLATE FLAVOUR 200 gm",
+  "Size": "200G",
+  "Composition": "EACH 30 GM POWDER CONTAINS   Energy  107.8 Kcal, Whey Protein 80% and Skimmed Milk Protein 35% - 12.30 gm,  Carbohydrates  20.01 gm, Total Sugar 13.96 gm, Added Sugar 13.42 gm, Dietary fiber 0.75 gm , Fat 0.90 gm, Saturated Fat 0.75 gm, Trans Fat 0 gm, Sodium 54 mg, Iron (Ferrous Fumrate) 6.0 mg, Folic acid (Dietry  Folate) 78.9 mcg,   Vitamin C (L-Ascorbic Acid) 22.50 mg, Vitamin B2 (Riboflavin) 0.54 mg,  Vitamin B6 (Pyridoxine Hydrochloride) 1.08 mg,  Vitamin B12 (Cynocobalamine) 0.60mcg,  Iodine (potassium Iodied) 54.9mcg, Calcium  (Di Calcium Phosphate) 400.20mg,   Phosphorus  165mg,   Vitamin D3 (Lichen Source) 90 IU,  Vitamin A (Retinyl Palmitate)  750 IU,   Vitamin E ( D-alpha tocopherol) 5.10 mg, Vitamin B1 (Thiamin HCL) 0.45 mg, Vitamin B3 (Niacin) 9.60mg,  Vitamin K (Menaquinone) 21mcg,  Pantothenic acid (Calcium D-pantothenate) 1.5mg,  DHA 10% veg source  24mg,  zinc (zinc Sulphate) 3.46mg,  Selenium (Sodium Selenite) 14.1mcg, Copper (Copper Sulphate)  0.36 mg, Potassium (Potassium Iodied)  220.50 mg,  Chloride  193.96 mg, Manganese (Manganese Sulphate) 1.2 mg, Chromium (chromium Chloride) 9 mcg,   Molybdenum (Sodium Molabdate)  15 mcg,   Choline (Choline Chloride)  45 mg, Flavour Chocolate 0.36 gm . ",
+  "Category": "Protein Suppliment",
+  "MRP": 343.8,
+  "GST%": 18,
+  "image": "https:\/\/firebasestorage.googleapis.com\/v0\/b\/wanbury-303d2.appspot.com\/o\/medicines%2FNurture%20%20(Chocolate%20Flav).png?alt=media&token=9e698ab4-6159-45e8-9af2-467a02c65401"
+ },
+ {
+  "ProductID": 28,
+  "ProductName": "Nurture SF  Powder -                             Vanilla Flavour 200 gm",
+  "Size": "200G",
+  "Composition": "For 100 gm powder  Protein 32g (milk+casein+soya), L-Lysine 2120mg, Carbohydrate 55g,  Fat 8G MUFA 5G, PUFA 2.6 G, Saturated Fat 0.4g, Trans Cholesterol 0mg, Cholesterol 0mg Sugar (sucrose) 0.0g,  L-Carnitine Tartarate equivalent to L-Carnitine 30mg, VITAMIN A 1070 IU, Vitamin D200 IU,  Vitamin  C 24mg, Vitamin E 5mg,  Niacinamide  7mg,  Vitamin B 2 - 0.6 mg, Vitamin B 1- 0.6 mg, Calcium Pantothenate 3 mg,  Vitamin B6, 1 mg,  Folic Acid 200 mcg,  Biotin  15 mcg  Vitamin B12-   0.6 mcg, Vitamin K 27 mcg, Calcium 600mg, Iron  (III)  Hydroxide Polymaltose Complex Eq To  Elemental Iron 17 mg, Manganese Sulphate 1.2 mg, Potassim 700mg, Chloride  250 mg, Dietary Fiber  7g,  Choline 100 mg,  Potassium  700 mg, Chloride  250mg, Dietary Fiber 7g, Choline 100 mg, Magnesium 200 mg, Phosphorus 600 mg, Sodium 350 mg, Lactobacillus reuteri 100 million,  Iodine 100 mcg,  Zinc 5mg, Selenium 13mcg, Molybdenum 15mcg.",
+  "Category": "Protein Suppliment",
+  "MRP": 425,
+  "GST%": 18,
+  "image": "https:\/\/firebasestorage.googleapis.com\/v0\/b\/wanbury-303d2.appspot.com\/o\/medicines%2FNurture%20SF%20(%20Vanilla%20Flav).png?alt=media&token=6a976ab0-7f24-4abc-a4b7-06959627f783"
+ },
+ {
+  "ProductID": 27,
+  "ProductName": "Nurture SF  Powder -                            Chocolate Flavour 200 gm",
+  "Size": "200G",
+  "Composition": "For 100 gm powder  Protein 32g (milk+casein+soya), L-Lysine 2120mg, Carbohydrate 55g,  Fat 8G MUFA 5G, PUFA 2.6 G, Saturated Fat 0.4g, Trans Cholesterol 0mg, Cholesterol 0mg Sugar (sucrose) 0.0g,  L-Carnitine Tartarate equivalent to L-Carnitine 30mg, VITAMIN A 1070 IU, Vitamin D200 IU,  Vitamin  C 24mg, Vitamin E 5mg,  Niacinamide  7mg,  Vitamin B 2 - 0.6 mg, Vitamin B 1- 0.6 mg, Calcium Pantothenate 3 mg,  Vitamin B6, 1 mg,  Folic Acid 200 mcg,  Biotin  15 mcg  Vitamin B12-   0.6 mcg, Vitamin K 27 mcg, Calcium 600mg, Iron  (III)  Hydroxide Polymaltose Complex Eq To  Elemental Iron 17 mg, Manganese Sulphate 1.2 mg, Potassim 700mg, Chloride  250 mg, Dietary Fiber  7g,  Choline 100 mg,  Potassium  700 mg, Chloride  250mg, Dietary Fiber 7g, Choline 100 mg, Magnesium 200 mg, Phosphorus 600 mg, Sodium 350 mg, Lactobacillus reuteri 100 million,  Iodine 100 mcg,  Zinc 5mg, Selenium 13mcg, Molybdenum 15mcg.",
+  "Category": "Protein Suppliment",
+  "MRP": 425,
+  "GST%": 18,
+  "image": "https:\/\/firebasestorage.googleapis.com\/v0\/b\/wanbury-303d2.appspot.com\/o\/medicines%2FNurture%20SF%20(Chocolate%20%20Flav).png?alt=media&token=317564c2-4dec-457b-87da-af5f142d1776"
+ },
+ {
+  "ProductID": 29,
+  "ProductName": "OSTEONURON - C10",
+  "Size": 10,
+  "Composition": "Each hard gelatin capsule contains :                                                                                             Pregabalin 75 mg                                                                                                                          Methylcobalamin 750 mcg",
+  "Category": "Back Pain",
+  "MRP": 152.8,
+  "GST%": 12,
+  "image": "https:\/\/firebasestorage.googleapis.com\/v0\/b\/wanbury-303d2.appspot.com\/o\/medicines%2FOsteo%20Nuron%20C10.png?alt=media&token=f5629616-d257-4840-81a0-949cf99447ae"
+ },
+ {
+  "ProductID": 57,
+  "ProductName": "OSTEONURON NT TABLETS T10",
+  "Size": 10,
+  "Composition": "Each film coated bilayer tablet contains : Pregabalin I.P (Prologed Release). ….75 mg, Nortriptyiline Hydrochloride I.P. equivalent to Nortriptyline ….10 mg, Methylcobalamine I.P…..1500 mcg., Excipients….q.s., Colours Sunset Yellow Lake.",
+  "Category": "Back Pain",
+  "MRP": 205,
+  "GST%": 12,
+  "image": "https:\/\/firebasestorage.googleapis.com\/v0\/b\/wanbury-303d2.appspot.com\/o\/medicines%2FOsteonuron%20NT%20tab.png?alt=media&token=53da1e2c-b959-42b5-8f0b-11ba0ac9996d"
+ },
+ {
+  "ProductID": 30,
+  "ProductName": "PANTASTIC 40 CAPSULES - C10",
+  "Size": 10,
+  "Composition": "Each hard gelatin capsule contains:                                                                                         Pantoprazole Sodium Sesquihydrate USP equivalent to                                                          Pantoprazole … 40mg (as Enteric Coated Pellets)",
+  "Category": "Antacid",
+  "MRP": 95.4,
+  "GST%": 12,
+  "image": "https:\/\/firebasestorage.googleapis.com\/v0\/b\/wanbury-303d2.appspot.com\/o\/medicines%2FPantastic%2040.png?alt=media&token=e2eb6917-f82e-4b9a-8d48-8b68bb448366"
+ },
+ {
+  "ProductID": 31,
+  "ProductName": "PANTASTIC D CAPSULES - C10",
+  "Size": 10,
+  "Composition": "Each hard gelatin capsule contains:                                                                                                Pantoprazole Sodium Sesquihydrate USP equivalent to                                                             Pantoprazole … 40mg (as Enteric Coated Pellets)                                                                        Domperidone BP ..30mg (as Sustained Release Pellets)",
+  "Category": "Antacid",
+  "MRP": 137,
+  "GST%": 12,
+  "image": "https:\/\/firebasestorage.googleapis.com\/v0\/b\/wanbury-303d2.appspot.com\/o\/medicines%2FPantastic%20D.png?alt=media&token=8cb78d3e-febf-4f30-a547-53d0aec89a70"
+ },
+ {
+  "ProductID": 32,
+  "ProductName": "RABIPLUS CAPSULES C 15",
+  "Size": 15,
+  "Composition": "Each hard gelatin Capsule contains:                                                                                                    Rabeprazole Sodium …..  20 mg ( As enteric coated pellets )                                                                        Colours ;  Titanium Dioxide IP Approved colours used in hard gelatin capsule shell.",
+  "Category": "Antacid",
+  "MRP": 179.3,
+  "GST%": 12,
+  "image": "https:\/\/firebasestorage.googleapis.com\/v0\/b\/wanbury-303d2.appspot.com\/o\/medicines%2FRabi%20Plus%20capsules.png?alt=media&token=901d7075-2b7c-438e-ae60-9626c8335ed1"
+ },
+ {
+  "ProductID": 33,
+  "ProductName": "RABIPLUS D CAPSULES C15",
+  "Size": 15,
+  "Composition": "Each hard gelatin Capsule contains:                                                                                            Rabeprazole Sodium …..  20 mg ( As enteric coated pellets )                                                          Domeperidone BP …..  30 mg ( As sustained release pellets )                                                        Colours ;  Brilliant Blue & Titanium Dioxide IP Approved colours used in hard gelatin capsule shell.",
+  "Category": "Antacid",
+  "MRP": 225.8,
+  "GST%": 12
+ },
+ {
+  "ProductID": 34,
+  "ProductName": "RABIPLUS-LS CAPSULES - C10",
+  "Size": 10,
+  "Composition": "Each hard gelatin capsule contains:\nRabeprazole Sodium IP ............... 20 mg\n(As enteric coated pellets)\nLevosulpiride................................ 75 mg\n(As sustained release pellets)",
+  "Category": "Antacid",
+  "MRP": 175,
+  "GST%": 12,
+  "image": "https:\/\/firebasestorage.googleapis.com\/v0\/b\/wanbury-303d2.appspot.com\/o\/medicines%2FRabi%20plus%20LS.png?alt=media&token=56a27ff3-907c-419f-905f-39e4de8b0395"
+ },
+ {
+  "ProductID": 35,
+  "ProductName": "SENASOF TABLETS - T10 (NEW)",
+  "Size": 10,
+  "Composition": "Each uncoted tablet contains:                                                                                                              Purified Senna Extract   60 mg Containing 12 mg of Senna Glucosides as Calcium salt",
+  "Category": "constipitation ",
+  "MRP": 108.8,
+  "GST%": 12,
+  "image": "https:\/\/firebasestorage.googleapis.com\/v0\/b\/wanbury-303d2.appspot.com\/o\/medicines%2FSenasof.png?alt=media&token=9d61f1b0-eaeb-4535-899f-fb00df739179"
+ },
+ {
+  "ProductID": 36,
+  "ProductName": "STALIA 650 Tablets T10",
+  "Size": 10,
+  "Composition": "Each film coated tablet contains :                                                                                                Tranexamic Acid IP 650 mg  ",
+  "Category": "Bleeding stop",
+  "MRP": 307,
+  "GST%": 5
+ },
+ {
+  "ProductID": 37,
+  "ProductName": "STALIA MF Tablets T10 ",
+  "Size": 10,
+  "Composition": "Each film coated tablets contains :                                                                                               Tranexamic Acid IP 500mg                                                                                                                      Mefenamic Acid IP 250 mg.                                                                                                                   Colur Ferric Oxide Red USP NF and Ferric Acid Yellow USP NF ",
+  "Category": "Bleeding stop with pain killer",
+  "MRP": 360,
+  "GST%": 12,
+  "image": "https:\/\/firebasestorage.googleapis.com\/v0\/b\/wanbury-303d2.appspot.com\/o\/medicines%2FStalia%20MF_V2.png?alt=media&token=9442dfd1-8c28-4172-9c7f-89b6fadd5725"
+ },
+ {
+  "ProductID": 38,
+  "ProductName": "STALIA PLUS Tablets T10",
+  "Size": 10,
+  "Composition": "Each film coated tablet contains :                                                                                                 Tranexamic Acid IP 650 mg                                                                                                                  Citrus Bioflavonodes 150 mg,                                                                                                          Menadione USP 20 mcg,                                                                                                                  Tribasic Calcium Phosphate IP 144 mg.                                                                                        Excipients q.s.,                                                                                                                                      Colur Ferric Oxide Black USP NF,                                                                                                        Ferric Oxide Yellow USP NF and Titanium Dioxide IP.  ",
+  "Category": "Bleeding stop",
+  "MRP": 431,
+  "GST%": 12,
+  "image": "https:\/\/firebasestorage.googleapis.com\/v0\/b\/wanbury-303d2.appspot.com\/o\/medicines%2FStalia%20Plus.png?alt=media&token=cadc9af9-8cd3-43d1-b714-f4597ffced16"
+ },
+ {
+  "ProductID": 39,
+  "ProductName": "Stalia-500",
+  "Size": 10,
+  "Composition": "Each film coated tablet contains\n Tranexamic Acid 500 mg\n",
+  "Category": "Bleeding stop",
+  "MRP": 173.65,
+  "GST%": 5,
+  "image": "https:\/\/firebasestorage.googleapis.com\/v0\/b\/wanbury-303d2.appspot.com\/o\/medicines%2FStalia%20500_V2.png?alt=media&token=b02217ed-413d-4e02-8860-536316813ca8"
+ },
+ {
+  "ProductID": 40,
+  "ProductName": "Stalia-Inj",
+  "Size": "5ml Vial",
+  "Composition": "Each 5 ml contains \n Tranexamic Acid 500 mg",
+  "Category": "Bleeding stop",
+  "MRP": 64.2,
+  "GST%": 5,
+  "image": "https:\/\/firebasestorage.googleapis.com\/v0\/b\/wanbury-303d2.appspot.com\/o\/medicines%2FStalia%20(inj).png?alt=media&token=b5efdf17-34fe-41fe-8aad-bd7323139277"
+ },
+ {
+  "ProductID": 41,
+  "ProductName": "Talia D3 2K Capsules C10",
+  "Size": 10,
+  "Composition": "Each Soft Gelatin Capsule contains:  Cholecalciferol IP  .……. 2000 IU",
+  "Category": "Vitamin D3",
+  "MRP": 71.25,
+  "GST%": 12,
+  "image": "https:\/\/firebasestorage.googleapis.com\/v0\/b\/wanbury-303d2.appspot.com\/o\/medicines%2FTalia-D3%202K.png?alt=media&token=15878b62-32bd-4636-989d-03caeca82d2c"
+ },
+ {
+  "ProductID": 42,
+  "ProductName": "Talia D3 400 IU Drops 30ml",
+  "Size": "30ml",
+  "Composition": "Each ml contains:\nCholecalciferol IP  .……. 400 IU ",
+  "Category": "Vitamin D3",
+  "MRP": 78.25,
+  "GST%": 12,
+  "image": "https:\/\/firebasestorage.googleapis.com\/v0\/b\/wanbury-303d2.appspot.com\/o\/medicines%2FTalia%20D3%20Drops.png?alt=media&token=966275b5-d034-4c58-8582-1b56c588f3f2"
+ },
+ {
+  "ProductID": 43,
+  "ProductName": "Talia D3 60K Capsules C4",
+  "Size": 4,
+  "Composition": "Each Soft Gelatin Capsule contains: Cholecalciferol IP  .……. 60000 IU",
+  "Category": "Vitamin D3",
+  "MRP": 131.8,
+  "GST%": 12,
+  "image": "https:\/\/firebasestorage.googleapis.com\/v0\/b\/wanbury-303d2.appspot.com\/o\/medicines%2FTalia-D3%2060K.png?alt=media&token=044cc2fd-c481-4f64-b2d9-ce0c00524637"
+ },
+ {
+  "ProductID": 44,
+  "ProductName": "UNITO - CV TABLET - T10 (SALES PACK)",
+  "Size": 10,
+  "Composition": "Each film-coated tablet contains :                                                                                                Cefpodoxime Proxetil USP Equivalent to Cefpodoxime ……………….. 200 mg                                     Potassium Clavulanate Diluted IP Equivalent to Clavulanic Acid ……………. 125 mg",
+  "Category": "anitbiotic",
+  "MRP": 412,
+  "GST%": 12,
+  "image": "https:\/\/firebasestorage.googleapis.com\/v0\/b\/wanbury-303d2.appspot.com\/o\/medicines%2FUnito%20CV_1.png?alt=media&token=29d80475-ca66-4af1-ab22-fe4f53f3502e"
+ },
+ {
+  "ProductID": 52,
+  "ProductName": "Wanmopen 1gm Inj",
+  "Size": "Vial",
+  "Composition": "Each vial contains : Meropenem (sterile ) IP Equivalent to anhydrous Meropenem 1000 mg.(A Sterile mixture of Meropenem and Sodium Carbonate as Sodium 90.2 mg)",
+  "Category": "anitbiotic",
+  "MRP": 2979,
+  "GST%": 12
+ },
+ {
+  "ProductID": 51,
+  "ProductName": "Wanmopen 500mg Inj",
+  "Size": "Vial",
+  "Composition": "Each vial contains : Meropenem (sterile ) IP Equivalent to anhydrous Meropenem 500 mg.(A Sterile mixture of Meropenem and Sodium Carbonate as Sodium 45.01 mg)",
+  "Category": "Antibiotics",
+  "MRP": 1286.4,
+  "GST%": 12
+ },
+ {
+  "ProductID": 45,
+  "ProductName": "WANPIPTA 4.5G - INJECTION",
+  "Size": "Vial",
+  "Composition": "Each vial contains :                                                                                                                                 Sterile Piperacillin Sodium U.S.P.  equivalent to Piperacillin ... 4 gm                                                     Sterile Tazobactam Sodium U.S.P.  equivalent to Tazobactam …0.5 gm",
+  "Category": "Antibiotics",
+  "MRP": 447.3,
+  "GST%": 12
+ },
+ {
+  "ProductID": 46,
+  "ProductName": "WELLBONE INFUSION 100ML - VIAL",
+  "Size": "100 ML",
+  "Composition": "Each 100 ml vial contains :                                                                                                            Zoledronic acid monohydrate eq. to Zoledronic acid 5 mg                                                                   Water for Injection eq. to 100 ml",
+  "Category": "osteophorosise",
+  "MRP": 3628.6,
+  "GST%": 5,
+  "image": "https:\/\/firebasestorage.googleapis.com\/v0\/b\/wanbury-303d2.appspot.com\/o\/medicines%2FWellbone.png?alt=media&token=09fc5947-ca62-4127-9e3e-a1264495315b"
+ },
+ {
+  "ProductID": 60,
+  "ProductName": "ZEVA JR. SYRUP - 100ML",
+  "Size": "100 ML",
+  "Composition": "EACH 5 ML    Vitamin A Palmitate IP 1600 IU\nVitamin E Acetate IP 5 IU\nCholecalciferol IP 200 IU\nThiamine Hydrochloride IP\n(Vitamin B1) 1.0 mg\nRiboflavin Sodium Phosphate IP (Vitamin B2) 1.0 mg\nPyridoxine Hydrochloride IP\n(Vitamin B6 ) 0.5 mg\nNiacianamide IP 15.0 mg\nCyanocobalamin IP 0.5  mcg\nZinc Sulphate IP equivalent to Zinc 5.0 mg\nPotassium Iodine IP equivalent to elemental iodine  50 mcg\nCopper sulfate Pentahydrate BP equivalent to Copper  100 mcg\nLysine Hydrochloride USP 25.0 mg\nIn flavoured syrup base q.s\n\n\n\n",
+  "Category": "Multivitamin",
+  "MRP": 95,
+  "GST%": 12,
+  "image": "https:\/\/firebasestorage.googleapis.com\/v0\/b\/wanbury-303d2.appspot.com\/o\/medicines%2FZeva%20Jr%20Syrup.png?alt=media&token=8406e1ce-58b3-4033-8f5a-1713aaa7f12f"
+ },
+ {
+  "ProductID": 47,
+  "ProductName": "ZEVA SYRUP (PHARMA) - 200 ML",
+  "Size": "200ML",
+  "Composition": "Vitamin A Palmitate IP 1600 IU\nVitamin E Acetate IP 5 IU\nCholecalciferol IP 200 IU\nThiamine Hydrochloride IP\n(Vitamin B1) 1.0 mg\nRiboflavin Sodium Phosphate IP (Vitamin B2) 1.0 mg\nPyridoxine Hydrochloride IP \n(Vitamin B6 ) 0.5 mg\nNiacianamide IP 15.0 mg\nCyanocobalamin IP 0.5  mcg\nZinc Sulphate IP equivalent to Zinc 5.0 mg\nPotassium Iodine IP equivalent to elemental iodine  50 mcg\nCopper sulfate Pentahydrate BP equivalent to Copper  100 mcg\nLysine Hydrochloride USP 25.0 mg\nIn flavoured syrup base q.s",
+  "Category": "Multivitamin",
+  "MRP": 182.35,
+  "GST%": 12,
+  "image": "https:\/\/firebasestorage.googleapis.com\/v0\/b\/wanbury-303d2.appspot.com\/o\/medicines%2FZeva%20Syrup.png?alt=media&token=8e9c1e0d-ba85-4c93-8424-c977d6b45e65"
+ },
+ {
+  "ProductID": 48,
+  "ProductName": "ZEVA TABLET T15 (MAIN DIV)",
+  "Size": 15,
+  "Composition": "Vitamin A (As a Acetate) IP-5000 IU\nCholecalciferol IP-400 IU\nVitamin E IP..............15 IU (as DL Alpha tocopherol acetate)\nVitamin B6 (Pyridoxine HCL) IP - 2 mg\nVitamin B1 (Thiamine Mononitrate ) IP - .10 mg\nVitamin B2 (Riboflavin ) IP - 10 mg\nCyanocobalamin IP - 7.5 mcg\nVitamin B3 (Niacinamide) IP - 50 mg\nCalcium Pantothenate IP - 10 mg\nAscorbic acid (as coated) IP 150 MG\nMagnesium oxide Light IP 30 mg                                                                                                                                  Manganese Sulphate USP - 2.8 mg                                                                                                    Copper Sulphate IP 2mg                                                                                                                         Zinc Sulphate Monohydrate IP - 63 mg                                                    \nSelenium Dioxide USP .............70 mcg                                                                                                          Biotin USP ...............................30 mcg                                                                                                            L- Glutamic Acid USP ................100 mg                                                                                                        Colour - Ponceau 4R\n",
+  "Category": "Multivitamin",
+  "MRP": 115.3,
+  "GST%": 12,
+  "image": "https:\/\/firebasestorage.googleapis.com\/v0\/b\/wanbury-303d2.appspot.com\/o\/medicines%2FZeva%20tab.png?alt=media&token=51a4eaca-220d-4c8f-88c6-df169bee474a"
+ }
+]
