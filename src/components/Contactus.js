@@ -10,14 +10,13 @@ export const ContactUs = ({ productName, closeModal }) => {
   
     const formData = new FormData(form.current);
   
-    // Extracting values from form data
+   
     const name = formData.get('from_name');
     const email = formData.get('from_email');
     const message = formData.get('message');
   
-    // Prepare email parameters
     const templateParams = {
-      product_name: productName, // Passing productName as product_name
+      product_name: productName, 
       from_name: name,
       from_email: email,
       message: message
@@ -28,11 +27,11 @@ export const ContactUs = ({ productName, closeModal }) => {
       .then(
         (result) => {
           console.log('Email successfully sent!', result.text);
-          closeModal(); // Close modal or perform any other action
+          closeModal(); 
         },
         (error) => {
           console.error('Email sending failed:', error.text);
-          // Handle error here
+          
         }
       );
   };
@@ -61,7 +60,7 @@ export const ContactUs = ({ productName, closeModal }) => {
             </div>
           </div>
           
-          {/* More input fields */}
+       
         </div>
         <div>
             <label htmlFor="Message" className="block text-sm font-semibold leading-6 text-gray-900">Message (if any)</label>

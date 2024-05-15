@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import Head from "./components/Head";
 import Sidebar from "./components/Sidebar";
 import Catalog from "./components/Catalog";
-import { db } from "./firebase_setup/firebase"; // Assuming firebase.js is in the same directory
+import { db } from "./firebase_setup/firebase";
 import { collection, getDocs, query, orderBy } from "firebase/firestore";
 
 const Products = () => {
@@ -13,7 +13,6 @@ const Products = () => {
   const [selectedCategories, setSelectedCategories] = useState([]);
 
   const [searchQuery, setSearchQuery] = useState("");
-  
 
   const handleSearch = (event) => {
     setSearchQuery(event.target.value);
@@ -30,11 +29,10 @@ const Products = () => {
   const handleSort = (sortField, sortDirection) => {
     setSortBy({ field: sortField, direction: sortDirection });
     setShowSortOptions(!showSortOptions);
-
   };
 
   const handleCategory = (category) => {
-    console.log("hekko")
+    console.log("hekko");
     console.log(selectedCategories);
     // Check if category is already selected
     if (selectedCategories.includes(category)) {
@@ -46,7 +44,6 @@ const Products = () => {
     }
     setShowCategoryOptions(!showCategoryOptions);
   };
-  
 
   return (
     <div>
@@ -58,7 +55,6 @@ const Products = () => {
       <div>
         <div class="relative z-40 lg:hidden" role="dialog" aria-modal="true">
           <div class="fixed inset-0 bg-black bg-opacity-25"></div>
-
         </div>
 
         <main class="max-w-screen px-4 sm:px-6 lg:px-8 py-4">
@@ -67,39 +63,37 @@ const Products = () => {
               Product Catalog
             </h1>
             <div class="flex items-center">
-
-                 {/* Render selected categories as tags */}
-                 {selectedCategories.map((category) => (
-                    
-                    <span
-                      key={category}
-                      className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-gray-100 text-gray-800 mr-2"
+           
+              {selectedCategories.map((category) => (
+                <span
+                  key={category}
+                  className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-gray-100 text-gray-800 mr-2"
+                >
+                  {category}
+                  <button
+                    type="button"
+                    onClick={() => handleCategory(category)}
+                    className="flex-shrink-0 ml-1.5 h-4 w-4 rounded-full inline-flex items-center justify-center text-gray-400 hover:text-gray-500 focus:outline-none focus:text-gray-500"
+                  >
+                    <svg
+                      className="h-2 w-2"
+                      stroke="currentColor"
+                      fill="none"
+                      viewBox="0 0 8 8"
                     >
-                      {category}
-                      <button
-                        type="button"
-                        onClick={() => handleCategory(category)}
-                        className="flex-shrink-0 ml-1.5 h-4 w-4 rounded-full inline-flex items-center justify-center text-gray-400 hover:text-gray-500 focus:outline-none focus:text-gray-500"
-                      >
-                        <svg
-                          className="h-2 w-2"
-                          stroke="currentColor"
-                          fill="none"
-                          viewBox="0 0 8 8"
-                        >
-                          <path
-                            strokeLinecap="round"
-                            strokeWidth="1.5"
-                            d="M1 1l6 6m0-6L1 7"
-                          />
-                        </svg>
-                      </button>
-                    </span>
-                  ))}
-                
+                      <path
+                        strokeLinecap="round"
+                        strokeWidth="1.5"
+                        d="M1 1l6 6m0-6L1 7"
+                      />
+                    </svg>
+                  </button>
+                </span>
+              ))}
+
               <div class="relative inline-block text-left">
                 <div>
-                <button
+                  <button
                     type="button"
                     class="group inline-flex justify-center text-sm m-2 font-medium text-gray-700 hover:text-gray-900"
                     id="menu-button"
@@ -143,73 +137,69 @@ const Products = () => {
                       />
                     </svg>
                   </button>
-
-                  
                 </div>
 
                 {/* Category options */}
                 {showCategoryOptions && (
-                   <div
-                   className="absolute right-0 z-10 mt-2 w-screen origin-top-right rounded-md bg-white shadow-2xl ring-1 ring-black ring-opacity-5 focus:outline-none"
-                   role="menu"
-                   aria-orientation="vertical"
-                   aria-labelledby="menu-button"
-                   tabIndex="-1"
-                 >
-                  {/* Cross button to close the category options */}
-    <button
-      className="absolute top-0 right-0 p-2"
-      onClick={() => setShowCategoryOptions(false)}
-    >
-      <svg
-        className="h-5 w-5 text-gray-400 hover:text-gray-500"
-        viewBox="0 0 20 20"
-        fill="currentColor"
-        aria-hidden="true"
-      >
-        <path
-          fillRule="evenodd"
-          d="M6.707 6.293a1 1 0 00-1.414 1.414L8.586 10l-3.293 3.293a1 1 0 101.414 1.414L10 11.414l3.293 3.293a1 1 0 001.414-1.414L11.414 10l3.293-3.293a1 1 0 00-1.414-1.414L10 8.586 6.707 5.293z"
-          clipRule="evenodd"
-        />
-      </svg>
-    </button>
-                     <div className="grid grid-cols-3 gap-4 p-2">
-                    {[
-                      "Antibiotics",
-                      "Calcium with Vit & Minerals",
-                      "Calcium with Vit D3",
-                      "Fever",
-                      "Amino Acid",
-                      "Pain Killer",
-                      "Muscle Relaxation",
-                      "Cough & Cold",
-                      "Productive Cough",
-                      "Fever, cough & Cold",
-                      "Dry cough",
-                      "Constipitation",
-                      "UTI Antibiotic",
-                      "Pain killer with Swelling",
-                      "Protein Suppliment",
-                      "Back Pain",
-                      "Antacid",
-                      "Bleeding stop",
-                      "Bleeding stop with pain killer",
-                      "Osteophorosise",
-                      "Multivitamin"
-                      // Add more categories as needed...
-                    ].map((category) => (
-                      <button
-                        key={category}
-                        type="button"
-                        className="text-gray-500 block px-2 py-1 text-sm"
-                        role="menuitem"
-                        onClick={() => handleCategory(category)}
+                  <div
+                    className="absolute right-0 z-10 mt-2 w-screen origin-top-right rounded-md bg-white shadow-2xl ring-1 ring-black ring-opacity-5 focus:outline-none"
+                    role="menu"
+                    aria-orientation="vertical"
+                    aria-labelledby="menu-button"
+                    tabIndex="-1"
+                  >
+                    <button
+                      className="absolute top-0 right-0 p-2"
+                      onClick={() => setShowCategoryOptions(false)}
+                    >
+                      <svg
+                        className="h-5 w-5 text-gray-400 hover:text-gray-500"
+                        viewBox="0 0 20 20"
+                        fill="currentColor"
+                        aria-hidden="true"
                       >
-                        {category}
-                      </button>
-                    ))}
-                  </div>
+                        <path
+                          fillRule="evenodd"
+                          d="M6.707 6.293a1 1 0 00-1.414 1.414L8.586 10l-3.293 3.293a1 1 0 101.414 1.414L10 11.414l3.293 3.293a1 1 0 001.414-1.414L11.414 10l3.293-3.293a1 1 0 00-1.414-1.414L10 8.586 6.707 5.293z"
+                          clipRule="evenodd"
+                        />
+                      </svg>
+                    </button>
+                    <div className="grid grid-cols-3 gap-4 p-2">
+                      {[
+                        "Antibiotics",
+                        "Calcium with Vit & Minerals",
+                        "Calcium with Vit D3",
+                        "Fever",
+                        "Amino Acid",
+                        "Pain Killer",
+                        "Muscle Relaxation",
+                        "Cough & Cold",
+                        "Productive Cough",
+                        "Fever, cough & Cold",
+                        "Dry cough",
+                        "Constipitation",
+                        "UTI Antibiotic",
+                        "Pain killer with Swelling",
+                        "Protein Suppliment",
+                        "Back Pain",
+                        "Antacid",
+                        "Bleeding stop",
+                        "Bleeding stop with pain killer",
+                        "Osteophorosise",
+                        "Multivitamin",
+                      ].map((category) => (
+                        <button
+                          key={category}
+                          type="button"
+                          className="text-gray-500 block px-2 py-1 text-sm"
+                          role="menuitem"
+                          onClick={() => handleCategory(category)}
+                        >
+                          {category}
+                        </button>
+                      ))}
+                    </div>
                   </div>
                 )}
 
@@ -267,18 +257,21 @@ const Products = () => {
           </div>
 
           <div className="flex items-center border-b-2 border-gray-500 pt-5">
-                  <input
-                    className="appearance-none bg-transparent border-none w-full text-gray-700 mr-3 py-1 px-2 leading-tight focus:outline-none"
-                    type="text"
-                    placeholder="Search"
-                    aria-label="Search"
-                    value={searchQuery}
-                    onChange={handleSearch}
-                  />
-                </div>
+            <input
+              className="appearance-none bg-transparent border-none w-full text-gray-700 mr-3 py-1 px-2 leading-tight focus:outline-none"
+              type="text"
+              placeholder="Search"
+              aria-label="Search"
+              value={searchQuery}
+              onChange={handleSearch}
+            />
+          </div>
 
-                <Catalog sortBy={sortBy} searchQuery={searchQuery} selectedCategories={selectedCategories} />
-
+          <Catalog
+            sortBy={sortBy}
+            searchQuery={searchQuery}
+            selectedCategories={selectedCategories}
+          />
         </main>
       </div>
     </div>

@@ -28,7 +28,7 @@ const Catalog = ({ sortBy, searchQuery, selectedCategories }) => {
         let filteredProducts = productsData.filter((product) =>
           product.ProductName.toLowerCase().includes(searchQuery.toLowerCase())
         );
-
+         //Filter based on Category
         if (selectedCategories.length > 0) {
           filteredProducts = filteredProducts.filter((product) =>
             selectedCategories.includes(product.Category)
@@ -62,9 +62,8 @@ const Catalog = ({ sortBy, searchQuery, selectedCategories }) => {
                     <img
                       alt="ecommerce"
                       className="object-cover object-center w-96 h-full block p-8"
-                      // Use a placeholder or loading spinner while the image is loading
-                      src={product.image} // Initially leave it empty or null
-                      // Use a loading attribute to specify how the browser should handle loading of the image
+                    
+                      src={product.image} 
                       loading="lazy"
                     />
                   </div>
