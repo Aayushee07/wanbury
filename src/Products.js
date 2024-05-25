@@ -7,12 +7,40 @@ import { collection, getDocs, query, orderBy } from "firebase/firestore";
 
 const Products = () => {
   const [sortBy, setSortBy] = useState({ field: null, direction: null });
-
   const [showSortOptions, setShowSortOptions] = useState(false);
   const [showCategoryOptions, setShowCategoryOptions] = useState(false);
   const [selectedCategories, setSelectedCategories] = useState([]);
-
   const [searchQuery, setSearchQuery] = useState("");
+  const [categories, setCategories] = useState([]);
+
+  useEffect(() => {
+    const fetchCategories = async () => {
+      const querySnapshot = await getDocs(collection(db, "Products"));
+      const categoryMap = new Map();
+
+      querySnapshot.forEach((doc) => {
+        const { Category, SubCategory } = doc.data();
+        if (Category && SubCategory) {
+          if (!categoryMap.has(Category)) {
+            categoryMap.set(Category, new Set());
+          }
+          categoryMap.get(Category).add(SubCategory);
+        }
+      });
+
+      const categoryArray = Array.from(
+        categoryMap,
+        ([category, subcategories]) => ({
+          category,
+          subcategories: Array.from(subcategories),
+        })
+      );
+
+      setCategories(categoryArray);
+    };
+
+    fetchCategories();
+  }, []);
 
   const handleSearch = (event) => {
     setSearchQuery(event.target.value);
@@ -32,14 +60,9 @@ const Products = () => {
   };
 
   const handleCategory = (category) => {
-    console.log("hekko");
-    console.log(selectedCategories);
-    // Check if category is already selected
     if (selectedCategories.includes(category)) {
-      // If category is already selected, remove it
       setSelectedCategories(selectedCategories.filter((c) => c !== category));
     } else {
-      // If category is not selected, add it
       setSelectedCategories([...selectedCategories, category]);
     }
     setShowCategoryOptions(!showCategoryOptions);
@@ -53,17 +76,20 @@ const Products = () => {
         className="w-full h-96"
       />
       <div>
-        <div class="relative z-40 lg:hidden" role="dialog" aria-modal="true">
-          <div class="fixed inset-0 bg-black bg-opacity-25"></div>
+        <div
+          className="relative z-40 lg:hidden"
+          role="dialog"
+          aria-modal="true"
+        >
+          <div className="fixed inset-0 bg-black bg-opacity-25"></div>
         </div>
 
-        <main class="max-w-screen px-4 sm:px-6 lg:px-8 py-4">
-          <div class="flex items-baseline justify-between border-b border-gray-200 pb-2 pt-2">
-            <h1 class="text-xl font-bold tracking-tight text-gray-900">
+        <main className="max-w-screen px-4 sm:px-6 lg:px-8 py-4">
+          <div className="flex items-baseline justify-between border-b border-gray-200 pb-2 pt-2">
+            <h1 className="text-xl font-bold tracking-tight text-gray-900">
               Product Catalog
             </h1>
-            <div class="flex items-center">
-           
+            <div className="flex items-center">
               {selectedCategories.map((category) => (
                 <span
                   key={category}
@@ -91,11 +117,11 @@ const Products = () => {
                 </span>
               ))}
 
-              <div class="relative inline-block text-left">
+              <div className="relative inline-block text-left">
                 <div>
                   <button
                     type="button"
-                    class="group inline-flex justify-center text-sm m-2 font-medium text-gray-700 hover:text-gray-900"
+                    className="group inline-flex justify-center text-sm m-2 font-medium text-gray-700 hover:text-gray-900"
                     id="menu-button"
                     aria-expanded="false"
                     aria-haspopup="true"
@@ -103,21 +129,21 @@ const Products = () => {
                   >
                     Category
                     <svg
-                      class="-mr-1 ml-1 h-5 w-5 flex-shrink-0 text-gray-400 group-hover:text-gray-500"
+                      className="-mr-1 ml-1 h-5 w-5 flex-shrink-0 text-gray-400 group-hover:text-gray-500"
                       viewBox="0 0 20 20"
                       fill="currentColor"
                       aria-hidden="true"
                     >
                       <path
-                        fill-rule="evenodd"
+                        fillRule="evenodd"
                         d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"
-                        clip-rule="evenodd"
+                        clipRule="evenodd"
                       />
                     </svg>
                   </button>
                   <button
                     type="button"
-                    class="group inline-flex justify-center text-sm m-2 font-medium text-gray-700 hover:text-gray-900"
+                    className="group inline-flex justify-center text-sm m-2 font-medium text-gray-700 hover:text-gray-900"
                     id="menu-button"
                     aria-expanded="false"
                     aria-haspopup="true"
@@ -125,24 +151,25 @@ const Products = () => {
                   >
                     Sort
                     <svg
-                      class="-mr-1 ml-1 h-5 w-5 flex-shrink-0 text-gray-400 group-hover:text-gray-500"
+                      className="-mr-1 ml-1 h-5 w-5 flex-shrink-0 text-gray-400 group-hover:text-gray-500"
                       viewBox="0 0 20 20"
                       fill="currentColor"
                       aria-hidden="true"
                     >
                       <path
-                        fill-rule="evenodd"
+                        fillRule="evenodd"
                         d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"
-                        clip-rule="evenodd"
+                        clipRule="evenodd"
                       />
                     </svg>
                   </button>
                 </div>
 
                 {/* Category options */}
+                {/* Category options */}
                 {showCategoryOptions && (
                   <div
-                    className="absolute right-0 z-10 mt-2 w-screen origin-top-right rounded-md bg-white shadow-2xl ring-1 ring-black ring-opacity-5 focus:outline-none"
+                    className="absolute right-0 z-10 mt-2 w-screen pl-40 py-4 origin-top-right rounded-md bg-white shadow-2xl ring-1 ring-black ring-opacity-5 focus:outline-none"
                     role="menu"
                     aria-orientation="vertical"
                     aria-labelledby="menu-button"
@@ -165,39 +192,26 @@ const Products = () => {
                         />
                       </svg>
                     </button>
-                    <div className="grid grid-cols-3 gap-4 p-2">
-                      {[
-                        "Antibiotics",
-                        "Calcium with Vit & Minerals",
-                        "Calcium with Vit D3",
-                        "Fever",
-                        "Amino Acid",
-                        "Pain Killer",
-                        "Muscle Relaxation",
-                        "Cough & Cold",
-                        "Productive Cough",
-                        "Fever, cough & Cold",
-                        "Dry cough",
-                        "Constipitation",
-                        "UTI Antibiotic",
-                        "Pain killer with Swelling",
-                        "Protein Suppliment",
-                        "Back Pain",
-                        "Antacid",
-                        "Bleeding stop",
-                        "Bleeding stop with pain killer",
-                        "Osteophorosise",
-                        "Multivitamin",
-                      ].map((category) => (
-                        <button
-                          key={category}
-                          type="button"
-                          className="text-gray-500 block px-2 py-1 text-sm"
-                          role="menuitem"
-                          onClick={() => handleCategory(category)}
-                        >
-                          {category}
-                        </button>
+                    <div className="grid grid-cols-4 gap-4 p-2">
+                      {categories.map(({ category, subcategories }) => (
+                        <div key={category} className="pl-10 border-l">
+                          <span className="font-bold text-gray-700">
+                            {category}
+                          </span>
+                          {subcategories.map((subcategory) => (
+                            <button
+                              key={subcategory}
+                              type="button"
+                              className="text-gray-500 block px-2 py-1 text-sm"
+                              role="menuitem"
+                              onClick={() =>
+                                handleCategory(`${category} - ${subcategory}`)
+                              }
+                            >
+                              {subcategory}
+                            </button>
+                          ))}
+                        </div>
                       ))}
                     </div>
                   </div>
@@ -234,25 +248,6 @@ const Products = () => {
                   </div>
                 )}
               </div>
-
-              {/* <button
-                type="button"
-                class="-m-2 ml-4 p-2 text-gray-400 hover:text-gray-500 sm:ml-6 lg:hidden"
-              >
-                <span class="sr-only">Filters</span>
-                <svg
-                  class="h-5 w-5"
-                  aria-hidden="true"
-                  viewBox="0 0 20 20"
-                  fill="currentColor"
-                >
-                  <path
-                    fill-rule="evenodd"
-                    d="M2.628 1.601C5.028 1.206 7.49 1 10 1s4.973.206 7.372.601a.75.75 0 01.628.74v2.288a2.25 2.25 0 01-.659 1.59l-4.682 4.683a2.25 2.25 0 00-.659 1.59v3.037c0 .684-.31 1.33-.844 1.757l-1.937 1.55A.75.75 0 018 18.25v-5.757a2.25 2.25 0 00-.659-1.591L2.659 6.22A2.25 2.25 0 012 4.629V2.34a.75.75 0 01.628-.74z"
-                    clip-rule="evenodd"
-                  />
-                </svg>
-              </button> */}
             </div>
           </div>
 
