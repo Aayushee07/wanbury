@@ -56,7 +56,7 @@ const Products = () => {
 
   const handleSort = (sortField, sortDirection) => {
     setSortBy({ field: sortField, direction: sortDirection });
-    setShowSortOptions(!showSortOptions);
+    setShowSortOptions(false);
   };
 
   const handleCategory = (category) => {
@@ -65,7 +65,6 @@ const Products = () => {
     } else {
       setSelectedCategories([...selectedCategories, category]);
     }
-    setShowCategoryOptions(!showCategoryOptions);
   };
 
   return (
@@ -76,14 +75,13 @@ const Products = () => {
         className="w-full h-full"
       /> */}
 
-
       <div>
         <div
           className="relative z-40 lg:hidden"
           role="dialog"
           aria-modal="true"
         >
-          <div className="fixed inset-0 bg-black bg-opacity-25"></div>
+          {/* <div className="fixed inset-0 bg-black bg-opacity-25"></div> */}
         </div>
 
         <main className="max-w-screen px-4 sm:px-6 lg:px-8 py-4">
@@ -168,10 +166,9 @@ const Products = () => {
                 </div>
 
                 {/* Category options */}
-                {/* Category options */}
                 {showCategoryOptions && (
                   <div
-                    className="absolute right-0 lg:w-[1200px] z-10 mt-2  pl-10  py-4 origin-top-right rounded-md bg-white shadow-2xl ring-1 ring-black ring-opacity-5 focus:outline-none"
+                    className="absolute right-0 lg:w-[1200px] z-10 mt-2 pl-10 py-4 origin-top-right rounded-md bg-white shadow-2xl ring-1 ring-black ring-opacity-5 focus:outline-none"
                     role="menu"
                     aria-orientation="vertical"
                     aria-labelledby="menu-button"
