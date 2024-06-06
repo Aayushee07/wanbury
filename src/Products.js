@@ -171,7 +171,7 @@ const Products = () => {
                 {/* Category options */}
                 {showCategoryOptions && (
                   <div
-                    className="absolute right-0 w-[1200px] z-10 mt-2  pl-10  py-4 origin-top-right rounded-md bg-white shadow-2xl ring-1 ring-black ring-opacity-5 focus:outline-none"
+                    className="absolute right-0 lg:w-[1200px] z-10 mt-2  pl-10  py-4 origin-top-right rounded-md bg-white shadow-2xl ring-1 ring-black ring-opacity-5 focus:outline-none"
                     role="menu"
                     aria-orientation="vertical"
                     aria-labelledby="menu-button"
