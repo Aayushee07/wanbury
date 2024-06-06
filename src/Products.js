@@ -70,11 +70,13 @@ const Products = () => {
 
   return (
     <div>
-      <img
-        src="/Screenshot 2024-05-10 151314.png"
+      {/* <img
+        src="trnava-university-_9xRHrMOjeg-unsplash.jpg"
         alt="Description of your image"
-        className="w-full h-96"
-      />
+        className="w-full h-full"
+      /> */}
+
+
       <div>
         <div
           className="relative z-40 lg:hidden"

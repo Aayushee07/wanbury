@@ -11,7 +11,7 @@ const Head = () => {
           </Link>
           <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center">
             <Link to="/" className="inline-flex items-center border-0 py-1 px-3 mx-1 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">Home</Link>
-            <Link to="/" className="inline-flex items-center border-0 py-1 px-3 mx-1 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">Products</Link>
+            <Link to="/products" className="inline-flex items-center border-0 py-1 px-3 mx-1 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">Products</Link>
           </nav>
         </div>
       </header>
